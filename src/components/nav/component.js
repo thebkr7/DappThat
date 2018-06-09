@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class NavBar extends Component {
+class Nav extends Component {
   render() {
     return (
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
-              <a class="navbar-item" href="../">
+              <a class="navbar-item" href="../..">
                 <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo" />
               </a>
               <span class="navbar-burger burger" data-target="navbarMenu">
@@ -43,4 +43,4 @@ class NavBar extends Component {
   }
 }
 
-export default NavBar;
+export default Nav;
