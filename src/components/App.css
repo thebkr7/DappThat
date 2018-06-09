@@ -3,7 +3,7 @@
 }
 
   .background {
-    position: fixed;
+    position: relative;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -22,6 +22,11 @@
     background-color: black;
     z-index: -1;
     opacity: 0.3;
+  }
+
+  .full-background {
+    -webkit-background-size: cover;
+    background-size: cover;
   }
 
 .App-logo {

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './style.css';
 
 class Nav extends Component {
   render() {
     return (
-      <div className="hero-head">
+      <div className="hero-head nav-position">
         <nav className="navbar">
           <div className="container">
             <div className="navbar-brand">

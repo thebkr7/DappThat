@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css';
 
 class Services extends React.Component {
   render() {
     return(
-      <div>
+      <div className='test'>
         Services
       </div>
     )
