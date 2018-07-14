@@ -13,3 +13,49 @@ and (-webkit-device-pixel-ratio: 3) {
     font-size: 10px;
   }
 }
+
+
+.see-through-me {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+  border-radius: 25px;
+}
+
+
+
+
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hcentered {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-size {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+  object-fit: cover;
+}
+
+.half-width {
+  width: 75%;
+}
+
+.align-right {
+  display: flex;
+  justify-content: right;
+}
