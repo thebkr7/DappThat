@@ -23,6 +23,11 @@ and (-webkit-device-pixel-ratio: 3) {
 
 
 
+.centered-button {
+  margin-right: 50%;
+  margin-left: 43%;
+}
+
 
 
 .centered {

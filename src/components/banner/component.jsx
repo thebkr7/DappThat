@@ -23,17 +23,11 @@ class Banner extends React.Component {
             DappThat is a <strong className="has-text-light">One Stop Shop</strong> for blockchain application development. We have a skillful team of fullstack and blockchain engineers that build quality, secure, decentralized applications for a brighter tomorrow.
           </p>
 
-
-            <div className="field is-grouped">
-              <p className="control is-expanded">
-                <input className="input" type="text" placeholder="Enter your email" />
-              </p>
-              <p className="control">
-                <a className="button is-info">
-                  Get In Touch
-                </a>
-              </p>
-            </div>
+          <div className="has-text-centered">              
+            <a className="button is-info" href="mailto:benjirichards7@gmail.com">
+              Get In Touch
+            </a>
+          </div>
 
         </div>
       </section>
